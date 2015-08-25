@@ -67,6 +67,8 @@ allowed_hosts = [
 ]
 
 deps = {
+  'src/content/nw':
+    'https://github.com/yubb/nw.js.git@origin/nw13',
   'src/breakpad/src':
     (Var("chromium_git")) + '/external/google-breakpad/src.git@9fcbe255a64d39295ad5f1f15c0b92db3da83c0f',
   'src/buildtools':
