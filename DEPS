@@ -185,8 +185,10 @@ deps = {
     (Var("chromium_git")) + '/chromium/deps/acid3.git@6be0a66a1ebd7ebc5abc1b2f405a945f6d871521',
   'src/tools/swarming_client':
     (Var("chromium_git")) + '/external/swarming.client.git@b39a448d8522392389b28f6997126a6ab04bfe87',
-  #'src/v8':
-  #  (Var("chromium_git")) + '/v8/v8.git@f2469f248ac14c8fc9b6b2870b75bfbc15ea011f'
+  'src/v8':'https://github.com/nwjs/v8.git@origin/nw13',
+  'src/content/nw': 'https://github.com/nwjs/nw.js.git@origin/nw13',
+  'src/third_party/node': 'https://github.com/nwjs/node.git@origin/nw13',
+  'src/breakpad/src':  'https://github.com/nwjs/breakpad.git@origin/nw13', # from svn revision 1409
 }
 
 deps_os = {
