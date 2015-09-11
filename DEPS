@@ -188,7 +188,6 @@ deps = {
   'src/v8':'https://github.com/nwjs/v8.git@origin/nw13',
   'src/content/nw': 'https://github.com/nwjs/nw.js.git@origin/nw13',
   'src/third_party/node': 'https://github.com/nwjs/node.git@origin/nw13',
-  'src/breakpad/src':  'https://github.com/nwjs/breakpad.git@origin/nw13', # from svn revision 1409
 }
 
 deps_os = {
